@@ -14,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-color: #151515;
+  background-color: #242424;
   color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
@@ -29,6 +29,20 @@ body {
 .logo {
   text-align: center;
   margin-bottom: 2rem;
+  position: relative;
+}
+
+.logo-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  background-image: linear-gradient( -45deg, #f15e23 50%, #f34582 50% );
+  filter: blur(80px);
+  border-radius: 50%;
+  z-index: -1;
 }
 
 a {
@@ -37,11 +51,42 @@ a {
 
 ul {
   list-style: none;
+  text-align: center;
 }
 
 ul li {
-  margin-bottom: 0.5rem;
-  text-align: center;
+  margin-bottom: 0.75rem;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  color: #151515;
+  border-radius: 40px;
+  padding: 0.5rem 1.25rem;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+
+.btn-primary {
+  border-color: #ed6a35;
+  background-image: linear-gradient(-45deg, #f15e23 0, #f34582 100%);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-image: linear-gradient(-45deg, #f15e23 20%, #f34582 100%);
+}
+
+.btn-alt {
+  border-color: #484848;
+  background-color: #3a3a3a;
+  color: #fff;
+}
+
+.btn-alt:hover {
+  background-color: #484848;
 }
 
 footer {
