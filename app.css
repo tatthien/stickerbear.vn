@@ -14,7 +14,8 @@ body {
   justify-content: center;
   align-items: center;
   overflow: hidden;
-  background-color: #efefef;
+  background-color: #151515;
+  color: #fff;
   font-family: 'Inter', sans-serif;
   font-size: 18px;
 }
@@ -40,6 +41,7 @@ ul {
 
 ul li {
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 
 footer {
