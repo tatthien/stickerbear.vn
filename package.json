@@ -1,0 +1,16 @@
+{
+  "name": "stickerbear.vn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "stylelint **/*.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "stylelint": "^14.10.0",
+    "stylelint-config-twbs-bootstrap": "^5.0.0"
+  }
+}
